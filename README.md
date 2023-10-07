@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# Timelog Webpage - 울산1팀
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🕰 "Timelog"는 엘리스 코딩의 "2023 풀스택 개발자 양성 온라인 부트 캠프" 교육과정 중 "울산1팀"이 진행하는 프로젝트입니다.
 
-## Available Scripts
+## 프로젝트 설명
 
-In the project directory, you can run:
+"Timelog"는 시간 관리 및 트래킹 웹 페이지로, 사용자들이 일상에서의 시간 소모를 기록하고 분석할 수 있게 도와줍니다.
 
-### `npm start`
+## 주요 기능
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 시간 기록: 특정 활동에 소모된 시간을 기록합니다.
+- 시간 분석: 기록된 시간을 바탕으로 활동별 시간 소모 분석을 제공합니다.
+- 목표 설정: 일별, 주별 목표 시간 설정 기능.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+(추가 기능은 개발 과정에서 업데이트됩니다.)
 
-### `npm test`
+## 기술 스택
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **프론트엔드**: React.js
+- (백엔드 및 기타 기술 스택은 추후 업데이트 예정)
 
-### `npm run build`
+## 팀원 및 역할
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- 김수빈: 
+- 박문구: 
+- 전은영: 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 문의 및 기여
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+프로젝트에 대한 문의나 기여를 원하시면 [Issue](https://github.com/EliceCoding-Ulsan1Team/Timelog-Frontend/issues)를 생성하거나 울산1팀에 연락주세요.
 
-### `npm run eject`
+## 라이선스
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+MIT License
