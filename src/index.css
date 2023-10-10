@@ -11,29 +11,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-.container {
-    display: flex;
-    width: 100%;
-  }
-  
-  .todo {
-    flex: 2;
-    padding: 20px;
-    box-sizing: border-box;
-    border: 1px solid #ccc;
-  }
-  
-  .calendar {
-    flex: 6;
-    padding: 20px;
-    box-sizing: border-box;
-    border: 1px solid #ccc;
-  }
-
-  .category {
-    flex: 2;
-    padding: 20px;
-    box-sizing: border-box;
-    border: 1px solid #ccc;
-  }

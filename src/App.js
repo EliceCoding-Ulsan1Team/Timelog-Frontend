@@ -1,21 +1,25 @@
-import Todo from './Components/Todo/todo';
-import Calendar from './Components/Calendar/calendar';
-import Category from './Components/Category/category';
+import logo from './logo.svg';
+import './App.css';
 
 function App() {
   return (
-    <div className='container'>
-      <div className='todo'>
-        <Todo />
-      </div>
-      <div className='calendar'>
-        <Calendar />
-      </div>
-      <div className='category'>
-        <Category />
-      </div>
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
     </div>
-
   );
 }
+
 export default App;
