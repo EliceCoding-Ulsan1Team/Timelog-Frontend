@@ -1,10 +1,9 @@
-import React from "react";
-import Login from "./pages/Login/Login";
-
+import React from 'react';
+import Main from './Pages/Main/main-page';
 function App() {
   return (
     <div className="App">
-      <Login />
+       <Main />
     </div>
   );
 }
