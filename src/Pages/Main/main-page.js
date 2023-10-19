@@ -1,46 +1,28 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import Calendar from '../../Components/Calendar/calendar';
-import Category from '../../Components/Category/category';
-import Setting from '../Setting/setting-page';
+import CategoryTimer from '../../Components/CategoryTimer.js/cateogrytimer';
 import './main-page.css';
 
-function Main() {
-    const [showSetting, setShowSetting] = useState(false);
-  const [categories, setCategories] = useState({});
-  const [selectedSubcategories, setSelectedSubcategories] = useState([]);
+function MainPage() {
 
+    const navigate = useNavigate();
 
-  const handleSettingButtonClick = () => {
-    setShowSetting(!showSetting);
-  };
-
-  const handleSaveSetting = (newCategories) => {
-    setCategories(newCategories);
-    setShowSetting(false);
-  };
-
-  const handleSubcategoryClick = (subcategory) => {
-    // 이미 선택된 소분류라면 제거, 아니면 추가
-    if (selectedSubcategories.includes(subcategory)) {
-      setSelectedSubcategories(selectedSubcategories.filter(sub => sub !== subcategory));
-    } else {
-      setSelectedSubcategories([...selectedSubcategories, subcategory]);
+    const handleClick = () => {
+        navigate('/setting');
     }
-  };
-
 
     return (
         <div className='container'>
-      <div className='calendar'>
-        <Calendar />
-      </div>
-      <div className='Category'>
-        {showSetting && <Setting onSave={handleSaveSetting} />}
-        <button onClick={handleSettingButtonClick}>Setting</button>
-        <Category categories={categories} selectedSubcategories={selectedSubcategories} onSubcategoryClick={handleSubcategoryClick} />
-      </div>
-    </div>
-    );
+            <div className='calendar'>
+                <Calendar />
+            </div>
+            <div className='category'>
+                <CategoryTimer />
+                <button onClick={handleClick}>Setting</button>
+            </div>
+        </div>
+    )
 }
 
-export default Main;
+export default MainPage;
